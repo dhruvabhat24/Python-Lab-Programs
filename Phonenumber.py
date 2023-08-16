@@ -12,9 +12,9 @@ def isphonenumber(text):
             if not text[i].isnumeric():
                 return False
             return True
-        #test the isphnenumber function
-        phone_number='415-555-4242'
-        if isphonenumber(phone_number):
-            print('The phone number {} is valid'.format(phone_number))
-        else:
-            print('The phone number {} is not valid '.format(phone_number))
+#test the isphnenumber function
+phone_number='415-555-4242'
+if isphonenumber(phone_number):
+    print('The phone number {} is valid'.format(phone_number))
+else:
+    print('The phone number {} is not valid '.format(phone_number))
